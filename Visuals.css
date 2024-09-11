@@ -1,0 +1,86 @@
+html{
+	background-color: darkgray;
+}
+.ND{ 
+	margin: -8px;
+	background-color: darkblue;
+	height: 55px;
+	width: 100%;
+
+}
+.NI{
+  	display: flex;
+  	justify-content: right;
+  }
+.NL{
+	list-style: none;
+	display: inline-block;
+	font-weight: bold;
+	margin-right: 50px;
+}
+.NL a{
+	color: whitesmoke;
+}
+h1{
+	text-align: center;
+				font-weight: bold;
+			font-style: oblique;
+}
+h4{text-align: center;
+			font-weight: bold;
+			font-style: italic;}
+div {
+	margin: 10px;
+	padding: 10px;
+	font-family: "Segoe UI";
+	font-size: 1rem; 
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	text-align: left;
+	background-color: #fff;
+  }
+a { text-decoration: none;
+  	color: black;
+  	transition: 0.5sec;
+  }
+a:hover{
+  	text-decoration: underline;
+  }
+.DESS{
+	display: grid;
+}
+.DESS:hover{
+	background-color: ;
+}
+.DESS :after, :before{
+	
+}
+img{width: auto;
+	height: 200px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	display: block;
+  }
+li{
+	list-style: none;
+}
+.Cont{
+	margin: 10px;
+  	background-color: gray;
+  	background-position: bottom;
+  	padding-bottom: 5px;
+  }
+.Cont h4{
+	padding-top: 10px;
+}
+.CL{
+	color: black;
+	display: inline-block;
+	padding: 20px;
+	justify-content: space-around;
+}
+.CI{
+	height: 50px;
+	width: 50px;
+}
