@@ -1,5 +1,6 @@
 html{
 	background-color: darkgray;
+	display: flexbox;
 }
 .ND{ 
 	margin: -8px;
