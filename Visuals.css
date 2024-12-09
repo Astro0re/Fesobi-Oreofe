@@ -1,3 +1,9 @@
+body{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
 html{
 	background-color: darkgray;
 	display: flexbox;
@@ -48,15 +54,22 @@ a { text-decoration: none;
 a:hover{
   	text-decoration: underline;
   }
+
 .DESS{
+	color: white;
+	background: rgb(16,42,156);
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 45%, rgba(0,212,255,1) 100%);	display: grid;
+	text-align: center;
+
+}
+@media screen and (max-width: 760px) {
+	.DESS{
 	display: grid;
+	grid-template-columns: auto;
 }
-.DESS:hover{
-	background-color: ;
 }
-.DESS :after, :before{
-	
-}
+
 img{width: auto;
 	height: 200px;
   	margin-left: auto;
@@ -67,21 +80,61 @@ li{
 	list-style: none;
 }
 .Cont{
-	margin: 10px;
   	background-color: gray;
-  	background-position: bottom;
-  	padding-bottom: 5px;
+	white-space: nowrap;
   }
-.Cont h4{
-	padding-top: 10px;
-}
-.CL{
-	color: black;
+.Cont_1{
+	background-color: gray;
 	display: inline-block;
-	padding: 20px;
-	justify-content: space-around;
+	align-items: center;
+	width: auto;
+	justify-content: space-evenly;
+	align-content: space-evenly;
+	justify-items: center;
+	vertical-align: top;
 }
-.CI{
-	height: 50px;
-	width: 50px;
+.Cont p{
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	background-color: gray;
+}
+.Cont h3{
+	color: white;
+	font-size: 30px;
+	padding: 10;
+	text-align: center;
+	background-color: gray;
+}
+.C-L{
+	color: black;
+	display: inline-flexbox;
+	background-color: gray;
+	text-align: center;
+	padding: 10px;
+}
+.C-I{
+	background-color: gray;
+	display: inline-flexbox;
+	justify-content: space-evenly;
+	align-items: center;
+
+}
+
+.grid-cont{
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+	background-color: gray;
+}	
+
+@media screen and (max-width: 1200px) {
+	.grid-cont{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);		
+		background-color: gray;
+	}	
+}
+.Back{
+	background-image: url("VIS/gradient.png");
 }
