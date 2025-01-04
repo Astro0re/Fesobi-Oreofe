@@ -138,6 +138,7 @@ li{
 .Back{
 	background-image: url("VIS/gradient.png");
 }
-.edu{
-	text-align: center;
+.text{
+	padding: auto;
+	text-size-adjust: 16px;
 }
