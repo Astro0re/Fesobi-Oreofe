@@ -106,22 +106,23 @@ li{
 	text-align: center;
 	background-color: gray;
 }
-.C-L{
+.CL{
 	color: black;
 	display: inline-flexbox;
 	background-color: gray;
 	text-align: center;
 	padding: 10px;
 }
-.C-I{
+.CI{
 	background-color: gray;
 	display: inline-flexbox;
 	justify-content: space-evenly;
 	align-items: center;
-
+	height: 50px;
+	width: auto;
 }
 
-.grid-cont{
+.grid-cont .CI{
 	display: flex;
 	align-items: center;
 	justify-content: center;	
