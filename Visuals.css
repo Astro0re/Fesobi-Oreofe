@@ -156,3 +156,15 @@ li{
  .Edu{
 	text-align: center;
  }
+.Sk_ico{
+	height: 50px;
+	width: auto;
+}
+.Skil{
+	background-color: aqua;
+}
+.Sk_Con{
+	display: inline-block;
+	margin: auto;
+	text-align: center;
+}
