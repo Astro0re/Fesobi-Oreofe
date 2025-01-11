@@ -167,5 +167,10 @@ li{
 	display: inline-block;
 	margin: auto;
 	text-align: center;
-	align-content: center;
+	align-self: center;
+	margin-left: 100px ;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-top: auto;
+
 }
