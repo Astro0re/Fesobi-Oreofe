@@ -167,4 +167,5 @@ li{
 	display: inline-block;
 	margin: auto;
 	text-align: center;
+	align-content: center;
 }
