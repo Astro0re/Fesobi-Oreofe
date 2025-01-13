@@ -170,4 +170,8 @@ li{
 	align-self: center;
 	margin-left: 100px ;
 	margin-right: auto;
+	background-color: white;
+}
+.Sk_Con:hover{
+	background-color: rgb(170, 154, 154);
 }
