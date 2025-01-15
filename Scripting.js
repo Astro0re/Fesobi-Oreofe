@@ -7,3 +7,6 @@ skill_Con.onmouseover = function on_hover(){
 skill_Con.onmouseover = function on_hover(){
     heig
 } 
+onclick.skill_Con = function click(){
+    
+}
