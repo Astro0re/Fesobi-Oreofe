@@ -5,7 +5,7 @@ body{
 }
 
 html{
-	background-color: darkgray;
+	background-color: white;
 	display: flexbox;
 }
 .ND{ 
@@ -165,7 +165,7 @@ li{
 	width: auto;
 }
 .Skil{
-	background-color: aqua;
+	background-color: rgb(251, 252, 252);
 }
 .Sk_Con{
 	display: inline-block;
