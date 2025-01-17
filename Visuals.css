@@ -1,12 +1,13 @@
 body{
 	padding: 0;
-	margin: 0;
+	margin: 0px;
 	box-sizing: border-box;
 }
 
 html{
 	background-color: white;
 	display: flexbox;
+	margin: 0px;
 }
 .ND{ 
 	margin: -8px;
@@ -83,6 +84,7 @@ li{
 .Cont{
 	background-color: gray;
   white-space: nowrap;
+  margin: 0px;
 }
 .Cont_1{
   background-color: gray;
@@ -165,7 +167,7 @@ li{
 	width: auto;
 }
 .Skil{
-	background-color: rgb(251, 252, 252);
+	background-color: white;
 }
 .Sk_Con{
 	display: inline-block;
