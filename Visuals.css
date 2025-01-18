@@ -173,14 +173,21 @@ li{
 }
 .Skil{
 	background-color: white;
+	justify-content: center;
+	align-items: center;
+
+}
+.SK{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: -10px;
 }
 .Sk_Con{
 	display: inline-block;
-	margin: auto;
 	text-align: center;
-	align-self: center;
-	margin-left: 100px ;
-	margin-right: auto;
+	justify-content: center;
+	align-items: center;
 	background-color: white;
 }
 .Sk_Con:hover{
