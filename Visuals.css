@@ -165,8 +165,14 @@ li{
 
 #Edu {
 	text-align: center;
-	display: inline-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
  }
+#Edu img{
+	height: 150px;
+	width: auto;
+}
 
 .Edu_I{
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
