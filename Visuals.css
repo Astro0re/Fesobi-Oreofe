@@ -161,6 +161,11 @@ li{
 
  .Certi{
 	text-align: center;
+	display: inline-block;
+	align-items: center;
+	justify-content: center;
+	align-items: center;
+
  }
 
 #Edu {
@@ -218,3 +223,12 @@ li{
 	display: block;
 	text-justify: center;
 }
+
+.Cer_I{
+	display: inline-block;
+	align-items: center;
+	justify-content: center;
+	align-items: center;
+
+}
+
