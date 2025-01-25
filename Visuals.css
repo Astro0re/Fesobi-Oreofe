@@ -212,3 +212,9 @@ li{
 	font-style: italic;
 	font-weight: 300;
 }
+
+#Work_XP{
+	padding: 20px;
+	display: block;
+	text-justify: center;
+}
