@@ -159,15 +159,26 @@ li{
 	margin: 0%;
  }
 
- .Certi{
+.Certi{
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-items: center;
+
+ }
+ .Certi h5{
+	margin: 10px;
+ }
+
+.Cer_I{
 	text-align: center;
 	display: inline-block;
 	align-items: center;
 	justify-content: center;
 	align-items: center;
 
- }
-
+}
 #Edu {
 	text-align: center;
 	display: flex;
@@ -224,11 +235,5 @@ li{
 	text-justify: center;
 }
 
-.Cer_I{
-	display: inline-block;
-	align-items: center;
-	justify-content: center;
-	align-items: center;
 
-}
 
