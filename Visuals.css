@@ -235,5 +235,17 @@ li{
 	text-justify: center;
 }
 
+#Rec_Add{
+	display: block;
+}
+
+#Rec_Add form{
+	max-width: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 
 
