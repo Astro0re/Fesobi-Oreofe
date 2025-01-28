@@ -247,5 +247,24 @@ li{
 	align-items: center;
 }
 
+.Nav_Page{
+	margin: 10px;
+	height: 55px;
+	width: 100%;
+}
 
+.Nav_Page .NI{
+	display: flex;
+	justify-content: center;
+}
 
+.Nav_Page .NL{
+	list-style: none;
+	display: inline-block;
+	font-weight: bold;
+	margin-right: 50px;
+}
+
+.Nav_Page .NL a{
+	color: black;
+}
