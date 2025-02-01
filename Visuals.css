@@ -14,6 +14,7 @@ html{
 	display: flexbox;
 	margin: 0px;
 }
+
 .ND{ 
 	margin: -8px;
 	background-color: darkblue;
@@ -21,28 +22,34 @@ html{
 	width: 100%;
 
 }
+
 .NI{
   	display: flex;
   	justify-content: right;
   }
+
 .NL{
 	list-style: none;
 	display: inline-block;
 	font-weight: bold;
 	margin-right: 50px;
 }
+
 .NL a{
 	color: whitesmoke;
 }
+
 h1{
 	text-align: center;
 				font-weight: bold;
 			font-style: oblique;
 			font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 		}
+
 h4{text-align: center;
 			font-weight: bold;
 			font-style: italic;}
+
 div {
 	margin: 10px;
 	padding: 10px;
@@ -51,16 +58,18 @@ div {
 	font-weight: 400;
 	line-height: 1.5;
 	color: #212529;
-	text-align: left;
 	background-color: #fff;
   }
+
 a { text-decoration: none;
   	color: black;
   	transition: 0.5sec;
   }
+
 a:hover{
   	text-decoration: underline;
   }
+
 
 .DESS{
 	color: white;
@@ -70,6 +79,7 @@ a:hover{
 	text-align: center;
 
 }
+
 @media screen and (max-width: 760px) {
 	.DESS{
 	display: grid;
@@ -83,14 +93,17 @@ img{width: auto;
   	margin-right: auto;
   	display: block;
   }
-li{
+
+  li{
 	list-style: none;
 }
+
 .Cont{
 	background-color: gray;
   white-space: nowrap;
   margin: 0px;
 }
+
 .Cont_1{
   background-color: gray;
   display: inline-block;
@@ -101,12 +114,14 @@ li{
   justify-items: center;
   vertical-align: top;
 }
+
 .Cont p{
   text-align: center;
   font-size: 15px;
   color: white;
   background-color: gray;
 }
+
 .Cont h3{
   color: white;
   font-size: 30px;
@@ -114,6 +129,7 @@ li{
   text-align: center;
   background-color: gray;
 }
+
 .C-L{
   color: black;
   display: inline-flexbox;
@@ -121,6 +137,7 @@ li{
   text-align: center;
   padding: 10px;
 }
+
 .C-I{
   background-color: gray;
   display: inline-flexbox;
@@ -223,21 +240,16 @@ li{
 }
 
 #rec{
-	text-align: center;
-	justify-content: center;
+	display: contents;
 }
 
 .rec_cont{
-	display: flex;
-	text-align: center;
+	display: block;
 }
 
 
 #Rec_I{
-	text-align: center;
-	display: block;
-	justify-content: center;
-	align-items: center;
+	display: flex;
 }
 
 #Work_XP{
