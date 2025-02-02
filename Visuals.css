@@ -11,12 +11,10 @@ body{
 
 html{
 	background-color: white;
-	display: flexbox;
-	margin: 0px;
 }
 
 .ND{ 
-	margin: -8px;
+	margin: 0px;
 	background-color: darkblue;
 	height: 55px;
 	width: 100%;
@@ -113,7 +111,6 @@ img{width: auto;
 
 .Cont{
 	background-color: gray;
-  white-space: nowrap;
   margin: 0px;
 }
 
@@ -286,7 +283,7 @@ img{width: auto;
 }
 
 .Nav_Page{
-	margin: 10px;
+	margin: 0px;
 	height: 55px;
 	width: 100%;
 }
