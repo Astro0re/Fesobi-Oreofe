@@ -91,6 +91,10 @@ a:hover{
 
 }
 
+#DES_Is{
+	display: grid;
+}
+
 @media screen and (max-width: 760px) {
 	.DESS{
 	display: grid;
