@@ -92,7 +92,7 @@ a:hover{
 }
 
 #DES_Is{
-	display: grid;
+	display: inline-block;
 }
 
 @media screen and (max-width: 760px) {
