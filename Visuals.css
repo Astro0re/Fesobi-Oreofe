@@ -113,12 +113,12 @@ img{width: auto;
 }
 
 .Cont{
-	background-color:gray;
+	background-color:rgb(204, 201, 201);
   margin: 0px;
 }
 
 .Cont_1{
-  background-color: gray;
+  background-color: rgb(204, 201, 201);
   display: inline-block;
   align-items: center;
   width: auto;
@@ -131,28 +131,26 @@ img{width: auto;
 .Cont p{
   text-align: center;
   font-size: 15px;
-  color: white;
-  background-color: gray;
+  background-color: rgb(204, 201, 201);
 }
 
 .Cont h3{
-  color: white;
   font-size: 30px;
   padding: 10;
   text-align: center;
-  background-color: gray;
+  background-color: rgb(204, 201, 201);
 }
 
 .C-L{
   color: black;
   display: inline-flexbox;
-  background-color: gray;
+  background-color: rgb(204, 201, 201);
   text-align: center;
   padding: 10px;
 }
 
 .C-I{
-  background-color: gray;
+  background-color: rgb(204, 201, 201);
   display: inline-flexbox;
   justify-content: space-evenly;
   align-items: center;
@@ -163,14 +161,14 @@ img{width: auto;
   display: flex;
   align-items: center;
   justify-content: center;	
-  background-color: gray;
+  background-color: rgb(204, 201, 201);
 }	
 
 @media screen and (max-width: 1200px) {
   .grid-cont{
 	  display: grid;
 	  grid-template-columns: repeat(2, 1fr);		
-	  background-color: gray;
+	  background-color: rgb(204, 201, 201);
   }	
 }
 .Back{
@@ -249,7 +247,7 @@ img{width: auto;
 	background-color: white;
 }
 .Sk_Con:hover{
-	background-color: rgb(170, 154, 154);
+	
 }
 
 #rec{
