@@ -278,6 +278,7 @@ img{width: auto;
 	display: block;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 }
 
 #Rec_Add form{
@@ -307,4 +308,8 @@ img{width: auto;
 
 .Nav_Page .NL a{
 	color: black;
+}
+
+#data_dis{
+	display: block;
 }
