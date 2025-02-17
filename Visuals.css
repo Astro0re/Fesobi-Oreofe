@@ -314,13 +314,13 @@ img{width: auto;
 	display: block;
 }
 
-#data_dis img{
+
+.data_img{
 	height: 500px;
 	width: auto;
 }
-
 @media screen and (max-width: 760px) {
-	#data_dis img{
+	.data_img{
 		height: 250px;
 		width: auto;
 	}
