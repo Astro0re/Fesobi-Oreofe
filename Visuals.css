@@ -13,6 +13,14 @@ html{
 	background-color: white;
 }
 
+@media screen and (max-width: 760px) {
+	html{
+		height: fit-content;
+		width: fit-content;
+	}
+	
+}
+
 .ND{ 
 	margin: 0px;
 	background-color: darkblue;
