@@ -67,7 +67,6 @@ div{
 	font-family: "Segoe UI";
 	font-size: 1rem; 
 	font-weight: 400;
-	line-height: 1.5;
 	color: #212529;
 	background-color: #fff;
 }
@@ -127,6 +126,7 @@ img{width: auto;
 .Cont{
 	background-color:rgb(204, 201, 201);
   margin: 0px;
+  text-align: center;
 }
 
 .Cont_1{
@@ -146,12 +146,7 @@ img{width: auto;
   background-color: rgb(204, 201, 201);
 }
 
-.Cont h3{
-  font-size: 30px;
-  padding: 5px;
-  text-align: center;
-  background-color: rgb(204, 201, 201);
-}
+
 
 .C-L{
   color: black;
