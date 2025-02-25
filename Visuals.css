@@ -11,6 +11,7 @@ body{
 
 html{
 	background-color: white;
+	size: calc();
 }
 
 @media screen and (max-width: 760px) {
@@ -235,12 +236,7 @@ img{width: auto;
 	height: 50px;
 	width: auto;
 }
-.Skil{
-	background-color: white;
-	justify-content: center;
-	align-items: center;
 
-}
 .SK{
 	display: flex;
 	flex-direction: row;
