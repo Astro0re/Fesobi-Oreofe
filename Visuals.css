@@ -12,6 +12,10 @@ body{
 html{
 	background-color: white;
 	size: calc();
+	font-family: "Segoe UI";
+	font-size: 1rem; 
+	font-weight: 400;
+
 }
 
 @media screen and (max-width: 760px) {
@@ -326,4 +330,9 @@ img{width: auto;
 		width: auto;
 	}
 	
+}
+
+#Face{
+	display: flex;
+	flex-direction: row;
 }
