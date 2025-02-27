@@ -92,7 +92,7 @@ a { text-decoration: none;
   	color: black;
   	transition: 0.5sec;
   }
-
+  
 a:hover{
   	text-decoration: underline;
   }
@@ -100,6 +100,7 @@ a:hover{
 
 .DESS{
 	display: grid;
+	grid-column: auto;
 	color: white;
 	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 45%, rgba(0,212,255,1) 100%);	display: grid;
 	text-align: center;
@@ -108,7 +109,7 @@ a:hover{
 
 #DES_Is{
 	background-color: transparent;
-	display: inline-block;
+	
 }
 
 @media screen and (max-width: 760px) {
