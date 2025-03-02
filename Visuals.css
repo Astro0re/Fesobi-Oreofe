@@ -121,6 +121,13 @@ a:hover{
 }
 }
 
+.Intro_Page{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
 img{width: auto;
 	height: 200px;
   	margin-left: auto;
@@ -334,11 +341,4 @@ img{width: auto;
 		width: auto;
 	}
 	
-}
-
-#Face{
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
 }
