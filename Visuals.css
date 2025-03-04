@@ -110,6 +110,14 @@ a:hover{
 
 }
 
+.DESS_I{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
 #DES_Is{
 	background-color: transparent;
 	
@@ -361,8 +369,8 @@ img{width: auto;
 #Face{
 	display: flex;
 	flex-direction: row;
-	align-items: center;
-	justify-content: center;
+	align-items: right;
+	justify-content: right;
 width: 100%;
 	height: 400px;
 	background: rgb(166,209,194);
