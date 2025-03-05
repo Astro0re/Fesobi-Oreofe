@@ -370,7 +370,17 @@ img{width: auto;
 	flex-direction: row;
 	align-items: right;
 	justify-content: right;
-	height: 400px;
-	background: rgb(166,209,194);
-background: radial-gradient(circle, rgba(166,209,194,1) 0%, rgba(148,187,233,1) 100%);
+	height: 500px;
+	width: auto;
+	background-image: url("VIS/137871.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;	
+	background-position-y: top;
+	background-attachment: absolute;
+}
+
+#Cer_Container{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
 }

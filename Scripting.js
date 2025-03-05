@@ -10,3 +10,8 @@ skill_Con.onmouseover = function on_hover(){
 onclick.skill_Con = function click(){
     StyleSheet
 }
+
+var Java_Con = document.getElementById("Java").innerHTML ;
+Java_Con = function on_hover() {
+    
+}
