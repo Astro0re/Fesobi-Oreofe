@@ -6,9 +6,15 @@ export default function Home() {
       
       <main className="flex flex-col gap-[30px] row-start-2 items-center sm:items-start">
         
+        <Image
+        src="/Personal Collage.png"
+        alt="Collage"
+        width={1000}
+        height={1300}
+        />
         
 
-        <h3> Hey there, I am Fesobi Oreofe, a Data Analyst, web developer and Graphic Designer, 
+        <h3 className="text-center"> Hey there, I am Fesobi Oreofe, a Data Analyst, web developer and Graphic Designer, 
         get to know about me more by clicking the respective button or head over straight to my  Projects page to see what i have worked on.</h3>
 
         <section>
@@ -35,15 +41,15 @@ export default function Home() {
 
 <section>
 	<h4>Certifications</h4>
-		<div>
+		<div className="gap-[50px]">
 			<div>
       
       <Image
             aria-hidden
-            src="/VIS/icons8-ibm-50.png"
+            src="/icons8-ibm.svg"
             alt="Window icon"
-            width={16}
-            height={16}
+            width={80}
+            height={80}
           />
 		
 
@@ -54,10 +60,10 @@ export default function Home() {
 
 			<div>
         <Image 
-        src="/ViS/icons8-kaggle-32.png"
+        src="/icons8-kaggle-32.png"
         alt="Kaggle"
-        width={16}
-        height={16}
+        width={80}
+        height={80}
         />
 			
 			<h5>Certification in Introduction to Programming from Kaggle Learn</h5>
@@ -67,10 +73,10 @@ export default function Home() {
 
 			<div>
 			<Image 
-        src="/ViS/icons8-kaggle-32.png"
+        src="/icons8-kaggle-32.png"
         alt="Kaggle"
-        width={16}
-        height={16}
+        width={80}
+        height={80}
         />
 			<h5>Certification in Python from Kaggle Learn</h5>
 			<a href="Cirtifications Display.html">View Here.</a>
@@ -79,10 +85,10 @@ export default function Home() {
 
 			<div>
       <Image 
-        src="/ViS/icons8-kaggle-32.png"
+        src="/icons8-kaggle-32.png"
         alt="Kaggle"
-        width={16}
-        height={16}
+        width={80}
+        height={80}
         />
 				<h5>Certification in SQL from Kaggle Learn</h5>
 				<a href="Cirtifications Display.html">View Here.</a>
@@ -91,10 +97,10 @@ export default function Home() {
 
 			<div>
 			<Image 
-        src="/ViS/icons8-kaggle-32.png"
+        src="/logo-black.svg"
         alt="Kaggle"
-        width={16}
-        height={16}
+        width={80}
+        height={80}
         />
 			<h5>Certification in Ai Career Essentials from ALX</h5>
 			<a href="Cirtifications Display.html">View Here.</a>
@@ -112,19 +118,19 @@ export default function Home() {
                     <h6>Data Analysis</h6>
                 <Image
                 
-                src="/VIS/Student Thesis.jpg"
+                src="/Student Thesis.jpg"
                 alt="Window icon"
-            width={16}
-            height={16}/> 
+            width={600}
+            height={600}/> 
                 </div>
                 
                 <div>
                     <h6>Graphic Design</h6>
 				<Image
-        src="/VIS/Asset 1-100.jpg"
+        src="/Asset 1-100.jpg"
         alt="Window icon"
-            width={16}
-            height={16}/> 
+            width={600}
+            height={600}/> 
             
                 </div>
 
