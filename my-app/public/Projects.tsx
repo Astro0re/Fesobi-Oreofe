@@ -12,13 +12,50 @@ export default function Home() {
           height={38}
           priority
         />
+        <div className="flex flex-col gap-[50px] items-center">
         <Image
         className=""
-        src="/VIS/Personal Collage.png"
+        src="/Personal Collage.png"
         alt="Collage"
         width={1300}
         height={1000}
         />
+        <Image
+        className=""
+        src="/Asset 1-100.jpg"
+        alt="Collage"
+        width={1300}
+        height={1000}
+        />
+        <Image
+        className=""
+        src="/Asset 2-100.jpg"
+        alt="Collage"
+        width={1300}
+        height={1000}
+        />
+        <Image
+        className=""
+        src="/Asset 5-100.jpg"
+        alt="Collage"
+        width={1300}
+        height={1000}
+        />
+        <Image
+        className=""
+        src="/Asset 5.1-100.jpg"
+        alt="Collage"
+        width={1300}
+        height={1000}
+        />
+        <Image
+        className=""
+        src="/Asset 6-100.jpg"
+        alt="Collage"
+        width={1300}
+        height={1000}
+        />
+        </div>
         <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2 tracking-[-.01em]">
             Get started by editing{" "}
