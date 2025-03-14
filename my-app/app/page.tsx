@@ -126,12 +126,14 @@ export default function Home() {
                 
                 <div>
                     <h6>Graphic Design</h6>
-				<Image
+				<a 
+        href="/Projects.tsx">
+        <Image
         src="/Asset 1-100.jpg"
         alt="Window icon"
             width={600}
             height={600}/> 
-            
+            </a>
                 </div>
 
 			        </div>
