@@ -9,10 +9,20 @@ body{
 }
 
 html{
-	width: 100%;
-	height: 100%;
-	font-family: "Segoe UI";
+	font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
+
+@media (max-width: 1200px) {
+	.container {
+	  max-width: 1140px;
+	}
+  }
+  
+  
 
 @media screen and (max-width: 760px) {
 	html{
@@ -21,6 +31,7 @@ html{
 	}
 	
 }
+
 
 .ND{ 
 	margin: 0px;
@@ -43,6 +54,7 @@ html{
 
 .NL a{
 	color: whitesmoke;
+	display: block;
 }
 
 .Page_Des{
@@ -314,26 +326,25 @@ img{width: auto;
 	align-items: center;
 }
 
-.Nav_Page{
-	margin: 0px;
-	height: 55px;
-}
-
-.Nav_Page .NI{
+.nav {
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-}
-
-.Nav_Page .NL{
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding-left: 0;
+	margin-bottom: 0;
 	list-style: none;
-	display: inline-block;
-	font-weight: bold;
-	margin-right: 50px;
-}
+  }
+  
+  .nav-link {
+	display: block;
+	padding: 0.5rem 1rem;
+  }
+  
+  .nav-link:hover, .nav-link:focus {
+	text-decoration: none;
+  }
 
-.Nav_Page .NL a{
-	color: black;
-}
 
 #data_dis{
 	display: block;
