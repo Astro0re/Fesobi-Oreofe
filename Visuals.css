@@ -395,3 +395,45 @@ img{width: auto;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 }
+
+@media screen and (max-width: 760px) {
+	html{
+		height: auto;
+		width: 100%;
+		padding: 1px;
+	}
+	
+	#Face{
+		display: flex;
+		flex-direction: row;
+		align-items: right;
+		justify-content: right;
+		height: 500px;
+		width: auto;
+		background-image: url("VIS/137871.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;	
+		background-position-y: top;
+		background-attachment: absolute;
+	}
+
+	.Collage{
+	width: 650px;
+	height: 500px;
+	background-image: url("VIS/Personal\ Collage.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;	
+	background-position-y: top;
+	background-attachment: absolute;
+}
+}
+
+@media screen and (max-width: 450px) {
+	html{
+		height: auto;
+		width: 100%;
+		padding: 10px;
+	}
+}
