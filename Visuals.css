@@ -434,6 +434,32 @@ img{width: auto;
 	html{
 		height: auto;
 		width: 100%;
-		padding: 10px;
+		padding: 1px;
 	}
+	
+	#Face{
+		display: flex;
+		flex-direction: row;
+		align-items: right;
+		justify-content: right;
+		height: 250px;
+		width: auto;
+		background-image: url("VIS/137871.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;	
+		background-position-y: top;
+		background-attachment: absolute;
+	}
+
+	.Collage{
+	width: 180px;
+	height: 300px;
+	background-image: url("VIS/Personal\ Collage.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;	
+	background-position-y: top;
+	background-attachment: absolute;
+}
 }
