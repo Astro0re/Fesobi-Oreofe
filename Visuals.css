@@ -428,6 +428,15 @@ img{width: auto;
 	background-position-y: top;
 	background-attachment: absolute;
 }
+
+.DESS_I{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
 }
 
 @media screen and (max-width: 450px) {
@@ -462,4 +471,281 @@ img{width: auto;
 	background-position-y: top;
 	background-attachment: absolute;
 }
+}
+
+@media screen and (max-width: 250px) {
+	html{
+		height: auto;
+		width: 50%;
+		padding: 1px;
+	}
+	
+	#Face{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		height: 100px;
+		width: auto;
+		background-image: url("VIS/137871.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;	
+		background-position-y: top;
+		background-attachment: absolute;
+	}
+
+	.Collage{
+	size: -50%;
+	width: 180px;
+	height: 300px;
+	background-image: url("VIS/Personal\ Collage.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;	
+	background-position-y: top;
+	background-attachment: absolute;
+}
+
+
+.DESS{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	color: white;
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 45%, rgba(0,212,255,1) 100%);	display: grid;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.DESS_I{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+#DES_Is{
+	background-color: transparent;
+	
+}
+
+
+
+.Intro_Page{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+img{width: auto;
+	height: 200px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	display: block;
+  }
+
+  li{
+	list-style: none;
+}
+
+.Cont{
+	background-color:rgb(204, 201, 201);
+  margin: 0px;
+  text-align: center;
+}
+
+.Cont_1{
+  background-color: rgb(204, 201, 201);
+  display: inline-block;
+  align-items: center;
+  width: auto;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  justify-items: center;
+ 
+}
+
+.Cont p{
+  text-align: center;
+  font-size: 12px;
+  background-color: rgb(204, 201, 201);
+}
+
+
+
+.C-L{
+  color: black;
+  display: inline-flexbox;
+  background-color: rgb(204, 201, 201);
+  text-align: center;
+  padding: 5px;
+}
+
+.C-I{
+  background-color: rgb(204, 201, 201);
+  display: inline-flexbox;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.grid-cont{
+  display: flex;
+  align-items: center;
+  justify-content: center;	
+  background-color: rgb(204, 201, 201);
+}	
+
+.Back{
+	background-image: url("VIS/gradient.png");
+}
+.text{
+	padding: auto;
+	text-size-adjust: 16px;
+}
+
+#Cer h3{
+	text-align: center;
+	text-justify: auto;
+}
+ 
+#Cer {
+	margin: 0%;
+ }
+
+.Certi{
+	text-align: center;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+
+ }
+ .Certi h5{
+	margin: 10px;
+ }
+
+.Cer_I{
+	text-align: center;
+	display: inline-block;
+	align-items: center;
+	justify-content: center;
+	align-items: center;
+
+}
+#Edu {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+ }
+#Edu img{
+	height: 150px;
+	width: auto;
+}
+
+.Edu_I{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-align: center;
+}
+
+.Sk_ico{
+	height: 50px;
+	width: auto;
+}
+
+.SK{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: -10px;
+}
+.Sk_Con{
+	display: inline-block;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+}
+.Sk_Con:hover{
+	text-align: center;
+}
+
+#rec{
+	display: contents;
+}
+
+.rec_cont{
+	display: block;
+}
+
+
+#Rec_I{
+	text-align: center;
+	display: flex;
+}
+
+#Work_XP{
+	padding: 10px;
+	display: block;
+	text-justify: center;
+}
+
+#Rec_Add{
+	display: block;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#Rec_Add form{
+	max-width: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav {
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+  }
+  
+  
+  
+  .nav-link:hover, .nav-link:focus {
+	text-decoration: none;
+  }
+
+
+#data_dis{
+	display: block;
+}
+
+
+.data_img{
+	height: 200px;
+	width: auto;
+}
+
+
+
+
+
+#Cer_Container{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+
 }
