@@ -3,6 +3,10 @@ body{
 	box-sizing: border-box;
 }
 
+.text {
+    font-size: 1rem; 
+}
+
 @font-face {
 	font-family: 'Comixo';
 	src: url('fonts/Comixo-Regular.');
@@ -396,6 +400,7 @@ img{width: auto;
 	grid-template-columns: repeat(2, 1fr);
 }
 
+/* PC Large Screen Display ? */
 @media screen and (max-width: 760px) {
 	html{
 		height: auto;
@@ -439,6 +444,7 @@ img{width: auto;
 
 }
 
+/* PC Small Screen Display */
 @media screen and (max-width: 450px) {
 	html{
 		height: auto;
@@ -473,7 +479,9 @@ img{width: auto;
 }
 }
 
-@media screen and (max-width: 250px) {
+
+/* Mobile Screen Display */
+@media screen and (max-width: 600px) {
 	html{
 		height: auto;
 		width: 50%;
@@ -734,8 +742,8 @@ img{width: auto;
 
 
 .data_img{
-	height: 200px;
-	width: auto;
+	max-width: 100%;
+    height: auto;
 }
 
 
