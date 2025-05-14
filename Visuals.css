@@ -1,6 +1,9 @@
 body{
 	padding: 0;
 	box-sizing: border-box;
+	-webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
 }
 
 .text {
@@ -393,6 +396,9 @@ img{width: auto;
 	background-position: center;	
 	background-position-y: top;
 	background-attachment: absolute;
+	-webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
 }
 
 #Cer_Container{
