@@ -1,5 +1,0 @@
-class actions {
-    constructor(parameters) {
-        
-    }
-}
