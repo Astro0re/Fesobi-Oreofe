@@ -1,5 +1,6 @@
-export default function certi(){
-    return(
+export default function Certi() {
+    
+	return(
         
 		<div class="Certi"><h2>Certifications</h2>
 			<div class="Cer_I">

@@ -1,4 +1,4 @@
-export default function ed_ex(){
+export default function EduExp(){
     return(
         <div>
             <div>

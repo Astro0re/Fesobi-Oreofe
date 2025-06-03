@@ -1,4 +1,4 @@
-export default function sks(){
+export default function Skills(){
     return(
         <div>
             <div>

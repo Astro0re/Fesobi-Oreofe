@@ -2,9 +2,9 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import certi from './components/Certi'
-import ed_ex from './components/Edu_Exp'
-import sks from './components/skills'
+import Certi from './components/Certi'
+import EduExp from './components/Edu_Exp'
+import Skills from './components/skills'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,11 +12,11 @@ function App() {
   return (
     <>
 
-      <ed_ex />
+      <EduExp />
       
-      <sks />
+      <Skills />
       
-      <certi />
+      <Certi />
 
       <div>
         <a href="https://vite.dev" target="_blank">
