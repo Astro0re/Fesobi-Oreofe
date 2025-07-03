@@ -384,8 +384,8 @@ img{width: auto;
 
 
 #Face{
-	display: flex;
-	flex-direction: row;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
 	align-items: right;
 	justify-content: right;
 	height: 550px;
