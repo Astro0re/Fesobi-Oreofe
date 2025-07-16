@@ -748,8 +748,8 @@ img{width: auto;
 
 
 .data_img{
-	max-width: 100%;
-    height: auto;
+	width: 60px;
+    height: 60px;
 }
 
 
