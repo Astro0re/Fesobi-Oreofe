@@ -7,6 +7,7 @@ body{
     border-radius: 6px;
     font-family: 'Montserrat', Arial, sans-serif;
     font-weight: 700;
+	overflow: auto;
 }
 
 .text {
@@ -39,6 +40,7 @@ html{
 @media (max-width: 1200px) {
 	.container {
 	  max-width: 1140px;
+	  overflow: auto;
 	}
   }
   
@@ -48,6 +50,7 @@ html{
 	html{
 		height: fit-content;
 		width: fit-content;
+		overflow: auto;
 	}
 	
 }
