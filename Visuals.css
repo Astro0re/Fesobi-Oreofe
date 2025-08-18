@@ -168,6 +168,7 @@ a:hover{
 	.DESS{
 	display: grid;
 	grid-template-columns: auto;
+	gap: 10px;
 }
 }
 
@@ -853,41 +854,5 @@ img{width: auto;
     }
 }
 
-/* Projects Page Responsive Grid */
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
-}
-@media (max-width: 800px) {
-  .projects-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* Design Project Images */
-.DESS_I img.design_img {
-  max-width: 400px;
-  width: 100%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media (max-width: 600px) {
-  .DESS_I img.design_img {
-    max-width: 95vw;
-  }
-}
-
-/* Data Project Image */
-.data_img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 }
