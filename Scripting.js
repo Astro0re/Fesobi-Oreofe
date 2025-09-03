@@ -1,5 +1,9 @@
 var skill_Con = document.getElementsByClassName("Sk_Con");
-
+// Changing color of background on hover/periodicaly
+document.getElementByID("Face").StyleSheet.on_hover="background-color: blue;";
+// merry-go-round
+document.getElementByID("Skill_Page")
+document.getElementByID("Courses")
 
 skill_Con.onmouseover = function on_hover(){
 } 
