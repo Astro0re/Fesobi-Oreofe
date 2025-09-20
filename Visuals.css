@@ -60,7 +60,7 @@ html{
 	margin: 0px;
 	background-color: darkblue;
 	height: 55px;
-	
+	padding: 10px;
 }
 
 .NI{
@@ -85,9 +85,12 @@ html{
 	justify-content: left;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', Arial, sans-serif;
     font-weight: 700;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
 }
 
 h1{
@@ -96,27 +99,11 @@ h1{
 			font-style: oblique;
 			font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 		}
-h2{
-	text-align: center;
-			font-weight: bold;
-			font-style: italic;
-		}
 
-h3{text-align: center;
-			font-weight: bold;
-			font-style: italic;}
 
-h4{text-align: center;
-			font-weight: bold;
-			font-style: italic;}
-
-h5{text-align: center;
-			font-weight: bold;
-			font-style: italic;}
 
 div{
 	text-justify: auto;	
-	padding: 10px;
 	font-family: 'Montserrat', Arial, sans-serif;
     font-weight: 700;
 }
@@ -167,7 +154,7 @@ a:hover{
 @media screen and (max-width: 760px) {
 	.DESS{
 	display: grid;
-	grid-template-columns: auto;
+	grid-template-columns: repeat(1,1fr);
 	gap: 10px;
 }
 }
@@ -397,7 +384,7 @@ img{width: auto;
 
 .Collage{
 	width: 1300px;
-		height: 1000px;
+	height: 1000px;
 	background-image: url("VIS/Personal\ Collage.png");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -417,20 +404,15 @@ img{width: auto;
 
 
 #Face{
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	align-items: right;
-	justify-content: right;
+	align-content: center;
+	justify-content: center;
 	height: 550px;
 	width: auto;
 	background-image: url("VIS/137871.jpg");
 	background-size: cover;
-	background-repeat: no-repeat;
 	background-position: center;	
 	background-position-y: top;
 	background-attachment: absolute;
-	-webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
     border-radius: 6px;
 }
 
