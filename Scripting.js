@@ -18,3 +18,10 @@ var Java_Con = document.getElementById("Java").innerHTML ;
 Java_Con = function on_hover() {
     
 }
+
+function cert_display(){
+    icon = document.getElementById('Cer_I')
+    icon.innerHTML = ""
+}
+
+document.getElementsByClassName('Cer_I').onclick = cert_display
