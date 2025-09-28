@@ -20,8 +20,14 @@ Java_Con = function on_hover() {
 }
 
 function cert_display(){
-    icon = document.getElementById('Cer_I')
-    icon.innerHTML = ""
+    icon = document.getElementById('Cer_dis')
+    if (document.getElementById("IBM") === true) {
+        icon.innerHTML = `
+        <h5>Certification In Data Fundamentals from IBM SkillsBuild</h5>
+        <h5>Certification In Big Data Fundamentals from IBM SkillsBuild</h5> 
+        <h5>Certification In Artificail Intelligence Fundamentals from IBM SkillsBuild</h5>
+        `;
+    }
 }
 
 document.getElementsByClassName('Cer_I').onclick = cert_display
