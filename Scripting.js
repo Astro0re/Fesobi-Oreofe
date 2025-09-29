@@ -10,11 +10,10 @@ function cert_display_IBM(){
 
 function cert_display_KAGG(){
     document.getElementById('Cer_dis').innerHTML = `
-			<h5>Certification in Introduction to Programming from Kaggle Learn</h5>
-			<h5>Certification in Python from Kaggle Learn</h5>
-			<h5>Certification in SQL from Kaggle Learn</h5>
-            <a href="Certification Display.html">View Here.</a>
-            <a href="Certification Display.html">View Here.</a>
+            <h5>Certification in Introduction to Programming from Kaggle Learn</h5>
+            <h5>Certification in Python from Kaggle Learn</h5>
+            <h5>Certification in SQL from Kaggle Learn</h5>
+            <a href="CertificationDisplay.html">View Here.</a>
             `;
 }
 function cert_display_ALX(){
