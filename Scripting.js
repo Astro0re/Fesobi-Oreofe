@@ -34,3 +34,9 @@ function cert_display_AWS(){
                 
                 `;
 }
+function cert_display_OCI(){
+    document.getElementById('Cer_dis').innerHTML = `
+                <h5>Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate</h5>
+                
+                `;
+}
