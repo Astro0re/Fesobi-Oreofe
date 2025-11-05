@@ -13,7 +13,26 @@ const DATA ={
         Soft : {'Communication':[],'Teamwork':[],'Problem-solving':[]}
     },
     Degree : 'Bsc Anatomy',
-    Certrifications : {},
-    Projects:{},
-    Experience:{}
+    Certrifications : {
+        IBM : {},
+        Kaggle : {},
+        AWS: {},
+        Sandater:{}
+    },
+    Projects: {},
+    Experience:{
+        'Assistant General Secretary, Anatomy Students Association': {
+            Duration : '1 year',
+            Description : 'Coordinated meetings and managed documentation for the association.'
+        },
+        'Resident Assistant, Babcock University':{
+            Duration : '1 year',
+            Description : 'Provided support and ensured the well-being of residents in the dormitory.'
+        },
+        'Data Analyst and Reseach Assitant, Medical ART Center':{
+            Duration : '6 months',
+            Description : 'Assisted in data collection and analysis for medical research projects.'
+        }
+
+    }
 }
