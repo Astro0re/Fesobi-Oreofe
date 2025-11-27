@@ -59,7 +59,10 @@
      style="display: grid; 
             grid-template-columns: repeat(2, 1fr);
             gap: 20px;
-            padding: 20px;">
+            padding: 20px; @media screen and (max-width: 360px) {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+            }">
 
     <div id="Summary">
             <h4>Executive Summary</h4>
@@ -217,7 +220,15 @@
           <h4>Add Recomendation</h4>
           <p>Worked with me before?, Let me know how well or not well I did.</p>
           <p>Click Below To add a Recomendation</p>
-            <button style="width: auto; height: 70px; background-color: blue; border-radius: 10px;"><a href="https://forms.gle/UUTKYuS3WwFpSx8i6" target="_blank"><h1 style="justify-content: center;">Click Here.</h1></a></button>
+            <br>
+            <a href="https://forms.gle/UUTKYuS3WwFpSx8i6" target="_blank" style="
+                color: white;
+                background: #268bd2;
+                border-left: 3px solid #227ab9;
+                border-bottom: 4px solid #227ab9;
+                border-radius: 6px;
+                padding: 9px;
+            ">Click Here</a>
         </div>
 
        
