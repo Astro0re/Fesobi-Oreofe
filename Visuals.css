@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+html{
+	line-height: 1.5;
+}
+
 body{
 	padding: 10;
 	box-sizing: border-box;
