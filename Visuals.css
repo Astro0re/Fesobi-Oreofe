@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+html{
+	line-height: 1.5;
+}
+
 body{
 	padding: 10;
 	box-sizing: border-box;
@@ -187,61 +192,8 @@ img{width: auto;
 	list-style: none;
 }
 
-.Cont{
-	background-color:rgb(204, 201, 201);
-  margin: 0px;
-  text-align: center;
-}
-
-.Cont_1{
-  background-color: rgb(204, 201, 201);
-  display: inline-block;
-  align-items: center;
-  width: auto;
-  justify-content: space-evenly;
-  align-content: space-evenly;
-  justify-items: center;
- 
-}
-
-.Cont p{
-  text-align: center;
-  font-size: 12px;
-  background-color: rgb(204, 201, 201);
-}
 
 
-
-.C-L{
-  color: black;
-  display: inline-flexbox;
-  background-color: rgb(204, 201, 201);
-  text-align: center;
-  padding: 5px;
-}
-
-.C-I{
-  background-color: rgb(204, 201, 201);
-  display: inline-flexbox;
-  justify-content: space-evenly;
-  align-items: center;
-
-}
-
-.grid-cont{
-  display: flex;
-  align-items: center;
-  justify-content: center;	
-  background-color: rgb(204, 201, 201);
-}	
-
-@media screen and (max-width: 1200px) {
-  .grid-cont{
-	  display: grid;
-	  grid-template-columns: repeat(2, 1fr);		
-	  background-color: rgb(204, 201, 201);
-  }	
-}
 .Back{
 	background-image: url("VIS/gradient.png");
 }
