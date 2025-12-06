@@ -2,6 +2,13 @@
 
 html{
 	line-height: 1.5;
+	-webkit-text-size-adjust: 100%;
+    font-family: "Source Sans Pro";
+    background: #f9f9f9;
+    text-rendering: optimizeLegibility;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 body{
@@ -71,7 +78,7 @@ html{
 
 .ND{ 
 	margin: 0px;
-	background-color: darkblue;
+	background-color: rgb(43, 29, 167);
 	height: 55px;
 	padding: 10px;
 }
