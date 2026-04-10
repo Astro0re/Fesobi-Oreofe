@@ -20,3 +20,5 @@ const response = await openai.chat.completions.create({
     model : process.env.API_MOD
     messages: [usermessage]
 }) 
+
+// Save system prompts for clearer output from the model
