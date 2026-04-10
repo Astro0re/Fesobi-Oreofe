@@ -45,3 +45,8 @@ function cert_display_OCI(){
                 
                 `;
 }
+
+// Greeting change for diffrent languages 
+document.querySelector().onchange = () =>{
+    document.querySelector().innerHTML = ''
+}
