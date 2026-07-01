@@ -59,8 +59,8 @@ html{
 
 @media (max-width: 1200px) {
 	.container {
-	  max-width: 1140px;
-	  overflow: auto;
+	  max-width: 100px;
+	  overflow: hidden;
 	}
   }
   
@@ -78,21 +78,21 @@ html{
 
 .ND{ 
 	margin: 0px;
-	background-color: rgb(43, 29, 167);
-	height: 55px;
-	padding: 10px;
+	background-color: rgb(109, 109, 109);
+	height: 50px;
+	padding: 5px;
 }
 
 .NI{
   	display: flex;
-  	justify-content: right;
+  	justify-content: left;
   }
 
 .NL{
 	list-style: none;
 	display: inline-block;
 	font-weight: bold;
-	margin-right: 50px;
+	margin-right: 40px;
 }
 
 .NL a{
@@ -183,7 +183,6 @@ a:hover{
 
 .Intro_Page{
 	display: flex;
-	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
@@ -319,8 +318,6 @@ img{width: auto;
 	display: flex;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	padding-left: 0;
-	margin-bottom: 0;
 	list-style: none;
   }
   
@@ -371,7 +368,7 @@ img{width: auto;
   }
 }
 
-
+/*
 #Face{
 	align-content: center;
 	justify-content: center;
@@ -384,6 +381,7 @@ img{width: auto;
 	background-attachment: absolute;
     border-radius: 6px;
 }
+*/
 
 #Cer_Container{
 	display: grid;
@@ -398,6 +396,7 @@ img{width: auto;
 		padding: 1px;
 	}
 	
+	/*
 	#Face{
 		display: flex;
 		flex-direction: row;
@@ -411,7 +410,7 @@ img{width: auto;
 		background-position: center;	
 		background-position-y: top;
 		background-attachment: absolute;
-	}
+	} */
 
 	.Collage{
 	width: 650px;
@@ -442,6 +441,7 @@ img{width: auto;
 		padding: 1px;
 	}
 	
+	/* 
 	#Face{
 		display: flex;
 		flex-direction: row;
@@ -455,7 +455,7 @@ img{width: auto;
 		background-position: center;	
 		background-position-y: top;
 		background-attachment: absolute;
-	}
+	} */
 
 	.Collage{
 	width: 180px;
@@ -477,7 +477,7 @@ img{width: auto;
 		width: 50%;
 		padding: 1px;
 	}
-	
+	/* 
 	#Face{
 		display: flex;
 		flex-direction: row;
@@ -491,7 +491,7 @@ img{width: auto;
 		background-position: center;	
 		background-position-y: top;
 		background-attachment: absolute;
-	}
+	} */
 
 	.Collage{
 	size: -50%;
