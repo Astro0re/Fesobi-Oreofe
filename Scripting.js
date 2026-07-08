@@ -47,6 +47,15 @@ function cert_display_OCI(){
 }
 
 // Greeting change for diffrent languages 
+if (document.getElementById(diff_lang) === true){
+
+}
+
 document.querySelector().onchange = () =>{
     document.querySelector().innerHTML = ''
+}
+
+// Hover on projects to display link for each project aspect
+document.getElementById("Proj");{
+    onmouseover.document.innerHTML`<select></select>`
 }
