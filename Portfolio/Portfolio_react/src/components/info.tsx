@@ -1,5 +1,6 @@
 const skill = ['Python', 'R', 'HTML/CSS', 'Javascript', 'SQL']
 
+// skill button to throw in skill icon onto the page
 function skill_throw(){
     return(
         <>
@@ -28,6 +29,6 @@ function info_sec(){
     )
 };
 
-// skill button to throw in skill icon onto the page
+
 
 export default info_sec

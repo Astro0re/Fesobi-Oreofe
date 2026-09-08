@@ -3,6 +3,12 @@
 //import exp_sec from "./exp";
 //import projects_sec from "./projects";
 
+import LinkICON from '../assets/Icons/11-linkedin.svg' ;
+
+import GitICON from '../assets/Icons/41-github.svg' ;
+
+import MailICON from '../assets/Icons/67-gmail.svg' ;
+
 
 // href={head_sec()}
 
@@ -16,11 +22,11 @@ function nav_sec(){
                 <p>Projects</p>
             </div>
             <div>
-                <img src="Portfolio\Portfolio_react\public\Icons\67-gmail.svg"><a href="fesobioreofe@gmail.com"></a></img>
+                <img src={MailICON}><a href="fesobioreofe@gmail.com"></a></img>
                 <p>Email</p>
-                <img src="Portfolio\Portfolio_react\public\Icons\11-linkedin.svg"><a href="https://www.linkedin.com/in/oreofeoluwa-fesobi-82382930b/"></a></img>
+                <img src={LinkICON}><a href="https://www.linkedin.com/in/oreofeoluwa-fesobi-82382930b/"></a></img>
                 <p>Linkedin</p>
-                <img src="Portfolio\Portfolio_react\public\Icons\41-github.svg"><a href="https://github.com/Astro0re"></a></img>
+                <img src={GitICON}><a href="https://github.com/Astro0re"></a></img>
                 <p>Github</p>
             </div>
             <div></div>

@@ -1,3 +1,27 @@
+import MpIMG from '../assets/proj_img/M_pox.jpeg'
+
+import HdIMG from '../assets/proj_img/Heart_D.jpeg'
+
+const data_projects = {
+    'Porjects' : {
+        'MPOX Analysis' : {
+        'img' : {MpIMG},
+        'Description' : 'Analysis on ',
+        'Tools' : 'R'
+        },
+        'Heart Attack Analysis' : {
+            'img' : {}, 
+            'Description' : 'Analysis on',
+            'Tools' : 'Python'
+        },
+        'Heart Diseases Analysis' : {
+            'img' : {HdIMG},
+            'Description' : 'Analysis on',
+            'Tools' : 'SQL'
+        }
+    }
+};
+
 function data_pro(){
     return(
         <>
