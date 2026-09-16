@@ -39,14 +39,27 @@ function exp_sec(){
                 <h2>Experince</h2>
                 <div>
                     <ul>
-                        {exp_loc.map(exp_loc => <button onClick={exp_act}>{exp_loc}</button>)}
-                        
-                        {if (exp_loc = 'Remedage') ? <p>{exp.Remedage.role}</p> : null}
-                        {if (exp_loc = 'Remedage') ? <p>{exp.Remedage.role}</p> : null}
+                        {exp_loc.map(exp_loc => <button onClick={exp_act} id={exp_loc}>{exp_loc}</button>)}                        
                     </ul>
+                    {
+                    if (document.getDocumentById({exp_loc}) === 'Remedage') {
+                             return(<p>{exp.Remedage.role}</p>)
+                            }
+                             }
+                             
+                        {if (exp_loc = 'Remedage') ? <p>{exp.Remedage.role}</p> : null}
                 </div>
                 <div id="exp_out">
-                    
+                    {exp.map((exp,i) => {
+                        return (
+                            <div key={i}>
+                                <div>{exp.role}</div>
+                                <div>{exp.time}</div>
+                                <div>{exp.des}</div>
+                            </div>
+                        )
+                    }
+                )}
                 </div>
             </div>
         </>
