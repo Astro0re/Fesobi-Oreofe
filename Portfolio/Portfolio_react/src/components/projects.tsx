@@ -9,6 +9,8 @@ function projects_sec(){
     return(
         <>
         <h2>Projects</h2>
+        <p>Now to the good stuff, these are various projects developed across different topics.</p>
+        <p>With various languages and technologies used, these projects are a blend of different acquired knowledge.</p>
         <p>Click to reveal</p>
         {domains.map(domain => <button>{domain}</button>)}
         

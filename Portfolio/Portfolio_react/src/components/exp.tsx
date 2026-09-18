@@ -27,39 +27,29 @@ const exp = {
     }
 }
 function exp_act(){
-    exp.{exp_loc.map(exp_loc)}.role
+    const clicked = document.querySelector('#exp_loc').nodeValue
+    console.log(clicked)
+
+   
 };
 
-const ['SelectedExp' , 'setSelectedExp'] = useState(-1);
+//const ['SelectedExp' , 'setSelectedExp'] = useState(-1);
 
 function exp_sec(){
     return(
         <>
             <div>
                 <h2>Experince</h2>
+                <p>Here are some of the role's held along the years.</p>
                 <div>
                     <ul>
-                        {exp_loc.map(exp_loc => <button onClick={exp_act} id={exp_loc}>{exp_loc}</button>)}                        
+                        {exp_loc.map(exp_loc => <button onClick={() =>{
+                            console.log(exp_loc)
+                        }} id={exp_loc}>{exp_loc}</button>)}                        
                     </ul>
-                    {
-                    if (document.getDocumentById({exp_loc}) === 'Remedage') {
-                             return(<p>{exp.Remedage.role}</p>)
-                            }
-                             }
-                             
-                        {if (exp_loc = 'Remedage') ? <p>{exp.Remedage.role}</p> : null}
                 </div>
                 <div id="exp_out">
-                    {exp.map((exp,i) => {
-                        return (
-                            <div key={i}>
-                                <div>{exp.role}</div>
-                                <div>{exp.time}</div>
-                                <div>{exp.des}</div>
-                            </div>
-                        )
-                    }
-                )}
+
                 </div>
             </div>
         </>
